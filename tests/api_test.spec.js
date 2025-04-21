@@ -1,5 +1,5 @@
 import {test, expect} from '@playwright/test'
-
+//Delete Request
 test('API DELETE Request', async({request}) => {
 
     const response = await request.delete('https://reqres.in/api/users/2')
